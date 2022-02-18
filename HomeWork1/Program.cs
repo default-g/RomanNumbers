@@ -85,7 +85,7 @@ class Program
         RomanNumber[] romanNumberArray = new RomanNumber[10];
         for (int i = 0; i < 10; i++)
         {
-            romanNumberArray[i] = new RomanNumber((ushort)(new Random().Next(1, 500)));
+            romanNumberArray[i] = new RomanNumber((ushort)(new Random().Next(1, 1000)));
             Console.Write(romanNumberArray[i] + " ");
         }
         Console.WriteLine();
