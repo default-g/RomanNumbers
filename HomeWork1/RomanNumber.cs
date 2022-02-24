@@ -2,7 +2,7 @@ using System;
 
 namespace HomeWork1
 {
-    internal class RomanNumber : ICloneable, IComparable
+    public class RomanNumber : ICloneable, IComparable
     {
     private readonly ushort number;
     
